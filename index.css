@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+}
+
+.Navigation {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.Navigation h1 {
+    color: #85082d;
+}
+
+.Navigation .links {
+    margin-left: auto;
+}
+
+.Navigation a {
+    margin-left: 60px;
+    margin-right: 60px;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.Navigation a:hover {
+    color: #85082d;
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+/* blog previews / list */
+
+.blog-previews {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+}
+
+.blog-previews:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-previews h2 {
+    font-size: 25px;
+    color: #85082d;
+    margin-bottom: 8px;
+}
+
+.body {
+    font-size: 20px;
+    /* margin-bottom: 8px; */
+}
+
+.author {
+    font-size: 12px;
+    text-align: right;
+}
