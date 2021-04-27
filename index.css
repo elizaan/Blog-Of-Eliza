@@ -70,3 +70,22 @@
     font-size: 12px;
     text-align: right;
 }
+
+.blog-previews a {
+    text-decoration: none;
+}
+
+
+/* blog details page */
+
+.blog-details h2 {
+    font-size: 25px;
+    color: #85082d;
+    margin-bottom: 8px;
+}
+
+
+/* .blog-details div {
+    font-size: 20px;
+    margin: 20px 0;
+} */
