@@ -1,15 +1,27 @@
+import {Link} from 'react-router-dom';
+
 const Navigation = () => {
     return (
         <nav className="Navigation">
-            <h1> Eliza's Blog </h1>
+            <h1> Friends' Blog </h1>
 
             <div className="Links">
-                <a href="/"> Home </a>
-                <a href="/create" style = {{
+                <Link to="/" style = {{
+                    backgroundColor: '#f2aa4cff',
+                    borderRadius: '8px',
+                    position: 'relative',
+                    right: '-950px'
+
+
+                }}> Home </Link>
+                <Link to="/create" style = {{
                     
                     backgroundColor: '#f2aa4cff',
-                    borderRadius: '8px'
-                    }}>New Blog</a>
+                    borderRadius: '8px',
+                    position: 'relative',
+                    right: '-900px'
+
+                    }}>New Blog</Link>
             </div>
         </nav>
     );
