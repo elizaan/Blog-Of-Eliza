@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Introducing Kanta",
+      "body": "I am Kanta",
+      "author": "Kanta",
+      "id": 1
+    },
+    {
+      "title": "Introducing Santa",
+      "body": "I am Santa",
+      "author": "Santa",
+      "id": 3
+    },
+    {
+      "title": "Introducing nadir on the go!",
+      "body": "Hi, I am Nadir Khan! ",
+      "author": "Nadir Khan",
+      "id": 5
+    },
+    {
+      "title": "Introducing Mr. Chowdhury",
+      "body": "Hello, I am a passionate engineer. I build many kinds of software and hardware-based projects where I try to simulate my own ideas. I love to learn new things. I love to study astronomy and astrophysics as well. Tesla car gives me new hope and inspiration to gain more knowledge. I like to save quotes from famous scientists, actors and entrauprauners, movies as well! I plan to tour many countries, Spain is the dream one! \"Life is a journey and why do we chase it?\"",
+      "author": "Ibrahim Chowdhury Sakib",
+      "id": 6
+    }
+  ]
+}

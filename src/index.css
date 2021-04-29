@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+}
+
+.home p {
+    padding: 10px;
+    display: inline-table;
+    margin: 0 auto;
+    /* align-items: center;
+    text-align: center; */
+    position: 'relative';
+    right: -700px;
+}
+
+.Navigation {
+    padding: 20px;
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e49797;
+}
+
+.Navigation h1 {
+    color: #85082d;
+    align-items: left;
+}
+
+.Navigation .links {
+    margin-left: auto;
+    align-items: right;
+}
+
+.Navigation a {
+    margin-left: 60px;
+    margin-right: 60px;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.Navigation a:hover {
+    color: #85082d;
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+/* blog previews / list */
+
+.blog-previews {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+}
+
+.blog-previews:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-previews h2 {
+    font-size: 25px;
+    color: #85082d;
+    margin-bottom: 8px;
+}
+
+.body {
+    font-size: 20px;
+    /* margin-bottom: 8px; */
+}
+
+.author {
+    font-size: 12px;
+    text-align: right;
+}
+
+.blog-previews a {
+    text-decoration: none;
+}
+
+
+/* blog details page */
+
+.blog-details h2 {
+    font-size: 25px;
+    color: #85082d;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.blog-details button {
+    background: #dda86b;
+    color: #000;
+    border: 3px solid rgb(226, 133, 133);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* create new blog form */
+
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create label {
+    text-align: left;
+    display: block;
+    font-size: 20px;
+}
+
+.create h2 {
+    font-size: 25px;
+    color: #85082d;
+    margin-bottom: 30px;
+}
+
+.create textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(226, 133, 133);
+    box-sizing: border-box;
+    display: block;
+}
+
+.create input,
+.create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(226, 133, 133);
+    box-sizing: border-box;
+    display: block;
+}
+
+.create button {
+    background: #dda86b;
+    color: #000;
+    border: 3px solid rgb(226, 133, 133);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* .blog-details div {
+    font-size: 20px;
+    margin: 20px 0;
+} */
